@@ -12,7 +12,7 @@ const doubleAndAdd = (acc, val) => {
 
 const filter = (
     fn, arr
-) => reduce(
+) => reduce (
     (acc, val) => fn(val) ? acc.concat([val]) : acc,
     [], arr
 );
